@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.navbar_highlight {
+    color: #00d4ff !important;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background:  #00d4ff;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color:  #00d4ff !important;
+}
+
+
+
+footer {
+    background-color: #0a0a0a;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 212, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.back-to-top.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background: rgba(0, 212, 255, 0.5);
+}
+
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    #home h1 {
+        font-size: 2.8em;
+    }
+    
+    #home h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    .section-title {
+        font-size: 2em;
+    }
+    
+    #home h1 {
+        font-size: 2.2em;
+    }
+    
+    #home h2 {
+        font-size: 1.6em;
+    }
+    
+    .glowing-border {
+        margin-top: 80px;
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.5em;
+    }
+    
+    #home h1 {
+        font-size: 1.8em;
+    }
+    
+    #home h2 {
+        font-size: 1.3em;
+    }
+    
+    .glowing-border {
+        width: 200px;
+        height: 200px;
+    }
+}
