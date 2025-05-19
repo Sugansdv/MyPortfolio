@@ -11,7 +11,6 @@ section {
     margin-bottom: 60px;
 }
 
-
 /* Home Section */
 #home {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
@@ -30,7 +29,7 @@ section {
     font-weight: bold;
 }
 
-.cyan-blue {
+.color-code {
     color: #00d4ff;
 }
 
@@ -131,7 +130,6 @@ section {
     background-color: #00d4ff;
 }
 
-
 /* Resume Section */
 .resume-title {
     font-size: 1.8em;
@@ -206,7 +204,6 @@ section {
     border-radius: 10px;
 } 
 
-
 .work-wrap img {
     transition: all 0.3s;
     width: 100%;
@@ -260,7 +257,6 @@ section {
     color: #fff;
     transform: scale(1.2);
 }
-
 
 
 
@@ -333,6 +329,7 @@ section {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
 }
+
 
 
 
