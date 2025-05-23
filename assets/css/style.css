@@ -336,6 +336,11 @@ section {
     margin-top: 4px;
 }
 body {
-  padding-bottom: 80px; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+main {
+    flex: 1;
+}
