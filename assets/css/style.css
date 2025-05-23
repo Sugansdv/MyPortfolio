@@ -330,6 +330,12 @@ section {
     box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
 }
 
-
-
+.technologies-used {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 4px;
+}
+body {
+  padding-bottom: 80px; 
+}
 
